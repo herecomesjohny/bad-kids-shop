@@ -3872,10 +3872,10 @@
     "@cosmjs/proto-signing" "^0.31.3"
     typescript "^5.2.2"
 
-"@leapwallet/elements-core@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/@leapwallet/elements-core/-/elements-core-1.4.1.tgz#a877dc89fb1e9f2d383284b0757f51a94be901dd"
-  integrity sha512-S+VXlYNd3kCsHtgwfFwWUprvj0iO8CHtOh2UbAyKRFnr+sHou0Q9dMQLAEPJOdtbYqBFB9aOL2x1RRP3jgTHLQ==
+"@leapwallet/elements-core@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@leapwallet/elements-core/-/elements-core-1.4.2.tgz#3ccbb9463f965125db346112cb84326821d92aec"
+  integrity sha512-dhiImU+rXbDtLjHquD864O6FuS4slkJHaHft4XGPVNiB8/F9Z4DmxYJnDw7lgH0oCiZwmDEJPkVYDGuuO9DMFw==
   dependencies:
     "@cosmjs/amino" "0.32.3"
     "@cosmjs/cosmwasm-stargate" "0.32.3"
@@ -3891,17 +3891,17 @@
     ky "1.2.4"
     long "5.2.3"
 
-"@leapwallet/elements-hooks@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/@leapwallet/elements-hooks/-/elements-hooks-1.4.1.tgz#25065a8f012ff3ac3d2fa6b67b87de47a796e2b1"
-  integrity sha512-a29z0K9XcfUC+Nrw7uLvRxNm1w7jZ5GRJo3w7cfTPnVbCxidxdA+1RbMWtKXiBMx6Z6xZXCb91vBVPuMj64d1A==
+"@leapwallet/elements-hooks@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@leapwallet/elements-hooks/-/elements-hooks-1.4.2.tgz#f282c5098e79518421de4a9ff1f1fd0dba7b44f7"
+  integrity sha512-CQQ4nJgjxqmuGOClL6tprpwT+yWiwofaPU0ZozNY4QM/EICpXmqxKIHaMOR3LwVwdN7lhPM7JhfN7ZC4t94iOg==
   dependencies:
     "@cosmjs/amino" "0.32.3"
     "@cosmjs/encoding" "0.32.3"
     "@cosmjs/math" "0.32.3"
     "@cosmjs/proto-signing" "0.32.3"
     "@cosmjs/stargate" "0.32.3"
-    "@leapwallet/elements-core" "1.4.1"
+    "@leapwallet/elements-core" "1.4.2"
     "@leapwallet/name-matcha" "1.6.0"
     bech32 "2.0.0"
     bignumber.js "9.1.1"
@@ -3910,17 +3910,17 @@
     swr "2.1.5"
     tiny-invariant "1.3.3"
 
-"@leapwallet/elements-umd-types@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/@leapwallet/elements-umd-types/-/elements-umd-types-1.4.1.tgz#7481ea8820a54b906e6ce6c1abb2967d738eca1c"
-  integrity sha512-lBrWTwWJPRWHaWpMJFXb/BBV44t7hBQAU+tYvM5z9iHJZPycjmGstNWFumed5vr2YMClGbOqEFICvxC2OF03Vw==
+"@leapwallet/elements-umd-types@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@leapwallet/elements-umd-types/-/elements-umd-types-1.4.2.tgz#47075968708abf4ce083faea7c4d44b7d7ec5f77"
+  integrity sha512-JsHFeK0zBa7Zf+cdy/qjsAzdqhh8BrnkfjH6RKlDim5AVe7+kR+36XHkSTDyHS9fKLWjrUHRgtFnC+ALZMH0mw==
   dependencies:
-    "@leapwallet/elements" "1.4.1"
+    "@leapwallet/elements" "1.4.2"
 
-"@leapwallet/elements@1.4.1":
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/@leapwallet/elements/-/elements-1.4.1.tgz#b462cf8ddeaa1464dd79425ce4e54b9cf4f591ae"
-  integrity sha512-o19fGLGzWUcO27Kt5Xx3npJGqknCvp26D7KPvaMXRBThUrC1Y8do1FZhTVaY5BoZ6avvf68bKfwjiFjkLc25KA==
+"@leapwallet/elements@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@leapwallet/elements/-/elements-1.4.2.tgz#7cbd300e5d08c7ce79464770efe7078c98aebdb2"
+  integrity sha512-yWg0oSxiCSBdbVrKBb7AShjKl2aS4DjiiEenFGCg+j6QPUINcYGa8+Ab+0oChEJamFWcJT11R1dk35r7WQ4OJw==
   dependencies:
     "@cosmjs/amino" "0.32.3"
     "@cosmjs/cosmwasm-stargate" "0.32.3"
@@ -3932,8 +3932,8 @@
     "@cosmjs/tendermint-rpc" "0.32.3"
     "@keplr-wallet/types" "0.12.100"
     "@leapwallet/cosmos-social-login-capsule-provider" "0.0.31-beta.2"
-    "@leapwallet/elements-core" "1.4.1"
-    "@leapwallet/elements-hooks" "1.4.1"
+    "@leapwallet/elements-core" "1.4.2"
+    "@leapwallet/elements-hooks" "1.4.2"
     "@leapwallet/react-ui" "1.10.2"
     "@phosphor-icons/react" "2.1.5"
     "@rainbow-me/rainbowkit" "1.2.0"
@@ -3951,7 +3951,7 @@
     cosmjs-types "0.9.0"
     framer-motion "11.1.9"
     fuse.js "7.0.0"
-    graz "0.1.18"
+    graz "0.1.19"
     idb-keyval "6.2.1"
     long "5.2.3"
     pino-pretty "11.2.1"
@@ -10050,10 +10050,10 @@ graphql@^16.8.1:
   resolved "https://registry.npmjs.org/graphql/-/graphql-16.9.0.tgz#1c310e63f16a49ce1fbb230bd0a000e99f6f115f"
   integrity sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw==
 
-graz@0.1.18:
-  version "0.1.18"
-  resolved "https://registry.npmjs.org/graz/-/graz-0.1.18.tgz#b688a81ad3b8df0297522946903a0efc517940b7"
-  integrity sha512-Pl40l8fPJWaKu0vF+LuaALULQfQvdYfkpAaK2pVfFW/VfLRyi5v7Y2Wpko/UowTqedq8aEzPA18Krr1w4j+fFg==
+graz@0.1.19:
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/graz/-/graz-0.1.19.tgz#6bfc1a7783cbca718a127091f03940324efdf679"
+  integrity sha512-KaRQJ7HTQp3vbX/bG2Oc9T3t/KyaIuU5dLoGU2QNFirNjIpRbhkBtCll9Li5A6+zw3O9bHkbZ1aUaKfuVyBS8w==
   dependencies:
     "@cosmsnap/snapper" "^0.1.29"
     "@dao-dao/cosmiframe" "^0.1.0"
@@ -11002,9 +11002,9 @@ micro-ftch@^0.3.1:
   integrity sha512-/0LLxhzP0tfiR5hcQebtudP56gUurs2CLkGarnCiB/OqEyUFQ6U3paQi/tgLv0hBJYt2rnr9MNpxz4fiiugstg==
 
 micromatch@^4.0.4, micromatch@^4.0.5:
-  version "4.0.7"
-  resolved "https://registry.npmjs.org/micromatch/-/micromatch-4.0.7.tgz#33e8190d9fe474a9895525f5618eee136d46c2e5"
-  integrity sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.8.tgz#d66fa18f3a47076789320b9b1af32bd86d9fa202"
+  integrity sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==
   dependencies:
     braces "^3.0.3"
     picomatch "^2.3.1"
